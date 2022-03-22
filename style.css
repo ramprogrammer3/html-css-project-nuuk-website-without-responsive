@@ -1,0 +1,833 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'dosis';
+}
+
+.bg-color{
+    background-color: #E47312;
+}
+.margin{
+    margin: 10px 0px;
+    height: 5px;
+}
+
+.banner-section{
+    height: 85vh;
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%),url('https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 25px;
+    position: relative;
+}
+
+.nav{
+    margin: 0px 50px;
+    position: relative;
+    top: 20px;  
+}
+.nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #fff; 
+}
+.nav ul>li{
+    float: right;   
+}
+.nav ul> li a{
+    display: block;
+    text-align: center;
+    padding: 40px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: black; 
+    letter-spacing: 2px;
+    font-weight: 600;  
+}
+.nav ul>li:last-child{
+    float: left;
+    width: 140px;    
+} 
+.content{
+    margin: 30px 0px 0px 50px;
+}
+.content::after{
+    color: "";
+    clear: both;
+    display: table;
+}
+.content-section{
+    float: left;
+}
+.content-section h1{
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+.content-section p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 15px 0px;
+}
+
+.content-section button{
+    color: #fff;
+    border-style: none;
+    padding: 15px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.social-icon{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #0A1229;
+    width: 50px;
+    position: relative;
+    top: 70px;
+    z-index: 2;   
+}
+.social-icon a{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 15px;
+}
+.social-icon:first-child{
+    padding-top: 10px;
+}
+.social-icon:last-child{
+    padding-bottom: 10px;
+    border-style: none;
+}
+.social-icon img{
+    vertical-align: middle;
+}
+
+.quote{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e47312;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+    position:relative;
+    left: auto;
+    top: 30px;
+    margin-left: auto;
+    width: 1000px;
+}
+.quote-class{
+    text-align: center;
+    padding: 40px;
+}
+
+.quote-class img{
+    width: 24px;
+    height: 24px;
+}
+
+.quote-class h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.quote-class p{
+    color: #fff;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.quote-class h3{
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.quote-class h3:hover{
+    border-bottom: 1px solid white;
+}
+.section{
+    margin: 40px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hide-heading{
+    font-size: 120px;
+    text-transform: uppercase;
+    color: rgba(241, 241, 247, 0.4);
+    z-index: 1;
+    letter-spacing: 11px; 
+}
+
+#service-heading{
+    position: relative;
+    top:40px;
+    left: -20px;
+}
+
+.bold-heading{
+    text-transform: uppercase;
+    z-index: 2;
+    font-size: 42px;
+    letter-spacing: 1px;
+    line-height: 150px;
+    font-weight: 500;
+}
+
+#service-bold-heading{
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+}
+
+.section-link{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #919198;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+.section-link:hover{
+    border-bottom: 2px solid #E47312;
+    cursor: pointer;
+}
+
+.section1{
+    margin: -30px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.asset-icon{
+    width: 60px;
+    height: 60px;
+    margin: 0px 0px 20px;
+}
+.asset-heading{
+    text-transform: uppercase; 
+    margin-top: 0px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.asset-description{
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.asset-learnmore-link{
+    color: #919198;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+.asset-learnmore-link:hover{
+    border-bottom: 2px solid #E47312;
+}
+
+#about{
+    margin: 200px 100px 0px;  
+}
+.about-container{
+    margin: 20px;
+    width: 100%;
+    position: relative;
+}
+#about-image{
+    
+   height: 400px; 
+   width: 90%;
+   object-fit: fill;
+}
+#about-heading{
+    position: relative;
+    top: -100px;
+    left: -80px;
+}
+#about-who{
+    position: relative;
+    top: -230px;
+    left: -10px;
+}
+#about-description{
+    position: relative;
+    top: -240px;
+    font-size: 17px;
+    color: #919197;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+#about-meet{
+    color: #919198;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+    top: -200px;
+    bottom: 0px;
+    padding-bottom: 5px;
+}
+
+#ex{
+    display: flex;
+    justify-content: space-between;
+}
+.experience-number{
+    color:#E47312;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 10px;
+    font-weight: 500px;
+}
+
+.experience-description{
+    font-size: 17px;
+    line-height: 25px;
+    color: #919197;
+    margin-bottom: 10px;
+}
+#work{
+    margin-top: 200px ; 
+}
+
+#pro{
+    position: relative;
+    left: -250px;
+}
+#our-work{
+    position: relative;
+    top: -120px;
+    left: -180px;
+}
+#all-work{
+    position: relative;
+    top: 80px;
+    left: 200px;
+    text-decoration: none;
+}
+
+#work-image-container{
+    display: grid;
+    margin: -100px 50px 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.image-wrapper{
+    position: relative;
+    z-index: 1;
+}
+.image-wrapper:hover{
+    z-index: 1;
+}
+.work-image{
+    width: 100%;
+    height: 400px;
+    cursor: pointer; 
+    z-index: 3;
+    position: relative;
+}
+.work-image:hover{
+    z-index: 1;
+    background-color: #919197;
+    opacity: .7;
+}
+.view-product{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-image: linear-gradient(59deg, #ff6361, #e47312);
+    color: #fff;
+    z-index: 2;
+    width: 90px;
+    height: 90px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-top: 20px;
+    border-radius: 50%;
+    margin-bottom: -25px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    cursor: pointer;
+}
+
+#color{
+    margin: 30px;
+    background-color: #e47312;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url('https://assets.architecturaldigest.in/photos/600845b5eebcfd50ede87936/16:9/w_2560%2Cc_limit/Bengaluru-home-Bodhi-Design-Studio-17-1366x768.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+}
+
+#color-heading{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+#color-para{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+#color-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+#color-link:hover{
+    border-bottom: 2px solid #fff;
+}
+
+#team{
+    position: relative;
+    left: -325px;
+}
+#professional{
+    position: relative;
+    left: -250px;
+    top: -120px;
+}
+#ram{
+    position: relative;
+    top: 100px;
+    left: 280px;
+    text-decoration: none;
+}
+
+
+.section2{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-text-icon-wrapper{
+    width: 100%;
+    margin: 0px 15px;
+}
+
+.team-image{
+    
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+#team-image-one{
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg');
+}
+
+#team-image-two{
+    background-image: url('	https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg');
+}
+
+#team-image-three{
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg');
+}
+
+#team-image-four{
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg');
+}
+
+.text-icon{
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    height: 105px;
+    margin-bottom: 20px;
+}
+.text-icon::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.text{
+    margin-left: 5px;
+    display: inline-block;
+    float: left;
+}
+.text h4{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.text p{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #919198;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    background-color: #e47312;
+    position: relative;
+    z-index: 2;
+    top: -123px;
+    left: 28px;
+    bottom: 0px;
+    padding: 10px; 
+}
+
+ .team-social-icon{
+    padding: 12px; 
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#testimonial-wrappper{
+    margin-top: 100px;
+    
+}
+
+#client-test1{
+    width: 40%;
+}
+
+#client-test2{
+    width: 60%;
+}
+#client-text2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#client{
+    position: relative;
+    left: -50px;
+    top: 110px;
+}
+
+.testimonial-para{
+    color: #919198;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#client-section-lind{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.title-section1{
+    width: 46%;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    
+}
+.title-section2{
+    width: 46%;
+    float: right;
+    text-align: center;
+    margin: 5px;
+    position: relative;
+    top: 100px;
+    
+}
+.one{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.one h2{
+    background-image: linear-gradient(8deg, #ff6361,#e47312);
+    border-radius: 100%;
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    bottom: 55px;
+    font-size: 24px;
+    opacity: 1;
+    
+}
+
+.one h4{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.one h3{
+    font-size: 18px;
+    color: #919198;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.section3{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blog-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#blogging{
+    position: relative;
+    top: 60px;
+    right: 50px;
+}
+#blog-news{
+    position: relative;
+    bottom: 60px;
+}
+
+.section-part2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-image-wrapper{
+    width: 32%;
+    cursor: pointer;
+}
+.back-image{
+    width: 100%;
+    height: 300px;
+    background-position: 0 50%;
+    background-size: cover;
+}
+
+#back-image-one{
+    background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80');
+}
+#back-image-two{
+    background-image: url('https://wallpaperaccess.com/full/3060213.jpg');
+}
+#back-image-three{
+    background-image: url('https://assets.architecturaldigest.in/photos/6008385854beb9e516da8461/master/pass/attiks-design-kerala-home-featured-image-1366x768.jpg');
+}
+
+.back-color{
+    background-image: linear-gradient(158deg, #e47312, #ff6361);
+    padding: 15px;
+}
+
+.back-color h3{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-top: 25px;
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.back-color p{
+    color: #fff;
+    opacity: .6;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.back-color a{
+    margin-left: 25px;
+    display: inline-block;
+    padding: 25px 0px 5px 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    line-height: 20px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3); 
+}
+.back-color a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.section4{
+    display: flex;
+    align-items: center;
+    width: 96%;
+    margin: 50px auto 0px;
+    background-image: linear-gradient(56deg, #c47312, #ff6361);
+    
+    
+}
+.top-title{
+    display: inline-block;
+    color: #fff;
+   letter-spacing: 1px;
+   line-height: 40px;
+    padding: 40px 0px;
+    margin-left: 60px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tab-logo-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.tab-logo{
+    display: inline-block;
+
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 80px 0px;  
+}
+
+footer{
+    width: 86%;
+    margin: 0 auto;
+    background-color: #0A1229;
+}
+.footer-row-one-column{
+    width: 33%;
+    display: inline-block;
+    padding: 80px 20px 40px;
+    height: 300px;
+}
+.column-first-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .column-first-div h1{
+    color: #fff;
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.column-first-div div{
+    position: relative;
+    right: 30px;
+    width: 50%;
+}
+
+.div-line{
+    height: 1px;
+    background-color: #ff6361;
+    width: 100%;
+    display: inline-block;
+}
+
+.last-para{
+    margin-left: 50px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.last-link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.info{
+    display: flex;
+    padding-top: 10px;
+}
+.info img{
+    width: 24px;
+    height: 24px;
+}
+
+.info h1{
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.info p{
+    margin-left: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+
